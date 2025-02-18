@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+
+body {
+  background-color: #f9f7e6;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  font-size: 5rem;
+  font-family: "Licorice", cursive;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+nav {
+  background: #eee;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.countdown {
+  font-size: 4rem;
+  font-family: "Licorice", cursive;
+  margin: 30px 0;
+}
+
+.home img {
+  margin-top: 20px;
+  border-radius: 10px;
+}
